@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev --turbopack --no-dev-ui",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -24,6 +24,7 @@
     "@types/cytoscape": "^3.21.9",
     "@types/node": "^20",
     "@types/react": "^18",
+    "@types/react-cytoscapejs": "^1.2.5",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.4.21",
     "eslint": "^9",
