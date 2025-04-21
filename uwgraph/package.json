@@ -1,0 +1,35 @@
+{
+  "name": "uwgraph",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "cytoscape": "^3.31.2",
+    "graphql": "^16.10.0",
+    "graphql-request": "^7.1.2",
+    "next": "15.3.1",
+    "react": "^18.2.0",
+    "react-cytoscapejs": "^2.0.0",
+    "react-dom": "^18.2.0",
+    "react-query": "^3.39.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/cytoscape": "^3.21.9",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4",
+    "typescript": "^5"
+  }
+}
